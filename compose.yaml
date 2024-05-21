@@ -1,0 +1,10 @@
+services:
+    observatory:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - "5124:5124"
+      volumes:
+        - ./:/app
+
