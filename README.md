@@ -23,7 +23,15 @@ docker-compose up --build
 docker exec -it observatory-observatory-1 bash
 cd Observatory
 dotnet build
+```
+
+Then run the project
+
+```bash
 dotnet run
+
+# Or in watch mode
+dotnet watch run
 ```
 
 Server will be available at `localhost:5124` on your machine.
